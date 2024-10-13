@@ -1,8 +1,6 @@
-'use client'
-
 import React from 'react'
 import SectionHeading from './section-heading'
-import { motion } from 'framer-motion'
+import * as motion from 'framer-motion/client'
 
 export default function About() {
     return (

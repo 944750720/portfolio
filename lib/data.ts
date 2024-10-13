@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-// import corpcommentImg from "@/public/corpcomment.png";
-// import rmtdevImg from "@/public/rmtdev.png";
-// import wordanalyticsImg from "@/public/wordanalytics.png";
+import techbase from "@/public/tech-base.png";
+import opensearch from "@/public/opensearch.png";
+import rakuten from "@/public/rakuten.png";
 
 export const links = [
   {
@@ -60,29 +60,29 @@ export const experiencesData = [
   },
 ] as const;
 
-// export const projectsData = [
-//   {
-//     title: "CorpComment",
-//     description:
-//       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-//     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-//     imageUrl: corpcommentImg,
-//   },
-//   {
-//     title: "rmtDev",
-//     description:
-//       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-//     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-//     imageUrl: rmtdevImg,
-//   },
-//   {
-//     title: "Word Analytics",
-//     description:
-//       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-//     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-//     imageUrl: wordanalyticsImg,
-//   },
-// ] as const;
+export const projectsData = [
+  {
+    title: "Tech-Base machine learning event",
+    description:
+      "I participated in a machine learning event organized by Tech-Base. I made a CNN model to classify images of different types of pens and pencils to hopefully help stuffs in Itoya-Ginza to classify them.",
+    tags: ["Python", "CNN", "Tensorflow"],
+    imageUrl: techbase,
+  },
+  {
+    title: "Search similar context by OpenSearch and LangChain",
+    description:
+      "I made a search program using OpenSearch and LangChain to search similar context from a large document, with the help of LLM.",
+    tags: ["Python", "OpenSearch", "LangChain", "OpenAI"],
+    imageUrl: opensearch,
+  },
+  {
+    title: "Rakuten internship",
+    description:
+      "I participated in an internship at Rakuten. I implemented the API of adding coupon information for businesses and searching for stores that are offering discounts on food items and the details of discounted food items by food type and store name using SQLite and Django Rest Framework.",
+    tags: ["Python", "Django", "React.js", "SQLite"],
+    imageUrl: rakuten,
+  },
+] as const;
 
 export const skillsData = [
   "HTML",

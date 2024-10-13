@@ -1,7 +1,6 @@
-'use client'
 import Image from 'next/image'
 import React from 'react'
-import { motion } from 'framer-motion'
+import * as motion from 'framer-motion/client'
 import Link from 'next/link'
 import { BsArrowRight, BsGithub, BsLinkedin } from 'react-icons/bs'
 import { HiDownload } from 'react-icons/hi'
