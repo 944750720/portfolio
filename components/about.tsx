@@ -6,7 +6,7 @@ import * as motion from 'framer-motion/client'
 import { useSectionInView } from '@/lib/hooks';
 
 export default function About() {
-    const { ref } = useSectionInView("About");
+    const { ref, inView } = useSectionInView("About");
 
     return (
         <motion.section
@@ -33,7 +33,11 @@ export default function About() {
                     Python and TypeScript.
                 </span>{" "}
                 I am always looking to
-                learn new technologies, e.g., LLM and RAG. I am currently aiming to become a{" "}
+                learn new technologies, e.g.,
+                <span className="font-bold">
+                    LLM and RAG.
+                </span>{" "}
+                I am currently aiming to become a{" "}
                 <span className="font-bold">full-stack engineer</span>.
             </p>
         </motion.section>

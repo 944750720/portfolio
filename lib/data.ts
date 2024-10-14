@@ -1,6 +1,5 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaLaptopCode } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import techbase from "@/public/tech-base.png";
 import opensearch from "@/public/opensearch.png";
@@ -35,28 +34,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "South China University of Technology, Bachelor's degree in Electrical Engineering",
+    location: "Guangzhou, China",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated from South China University of Technology with a Bachelor’s degree in Electrical Engineering.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2016.09 - 2020.07",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "The University of Tokyo, Master's degree in EEIS",
+    location: "Tokyo, Japan",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "I finished my research about radar and unsupervised machine learning at The University of Tokyo for a Master's degree in Electrical Engineering and Information Systems (EEIS).",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022.10 - 2024.09",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Software Engineer intern",
+    location: "Tokyo, Japan",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I participated in short-term internships at 楽天グループ and 日本コントロールシステム株式会社, etc. I had also worked as a long-term AI(LLM) Engineer intern at 株式会社クウゼン for a year. From 2024.10, I started to work as long-term intern at 株式会社ケミカン and 株式会社IGSA simutaneously.",
+    icon: React.createElement(FaLaptopCode),
+    date: "2022.10 - present",
   },
 ] as const;
 

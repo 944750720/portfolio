@@ -9,7 +9,7 @@ import { HiDownload } from 'react-icons/hi'
 import { useSectionInView } from '@/lib/hooks';
 
 export default function Intro() {
-    const { ref } = useSectionInView("Home");
+    const { ref, inView } = useSectionInView("Home");
 
     return (
         <section ref={ref} className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]' id="home">
@@ -61,7 +61,7 @@ export default function Intro() {
                 I&apos;m a {" "}
                 <span className="font-bold">Software Engineer</span> {" "}
                 with{" "}
-                <span className="font-bold">1 years of internship experience in Tokyo</span>
+                <span className="font-bold">1 year of internship experience in Tokyo</span>
                 , mainly working remotely.
                 I enjoy {" "}<span className="font-bold">programming</span>
                 , gaming, traveling, cooking, and watching soccer.

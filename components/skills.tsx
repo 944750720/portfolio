@@ -24,7 +24,7 @@ const fadeInAnimationVariants = {
     },
 }
 export default function Skills() {
-    const { ref } = useSectionInView("Skills");
+    const { ref, inView } = useSectionInView("Skills");
 
     return (
         <section ref={ref} id="skills" className='mb-28 mt-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40'>
