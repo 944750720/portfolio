@@ -53,7 +53,7 @@ export const experiencesData = [
     title: "Software Engineer intern",
     location: "Tokyo, Japan",
     description:
-      "I participated in short-term internships at 楽天グループ and 日本コントロールシステム株式会社, etc. I had also worked as a long-term AI(LLM) Engineer intern at 株式会社クウゼン for a year. From 2024.10, I started to work as long-term intern at 株式会社ケミカン and 株式会社IGSA simutaneously.",
+      "I had participated in short-term internships at 楽天グループ and 日本コントロールシステム株式会社, among others. I had also worked as a long-term AI(LLM) Engineer intern at 株式会社クウゼン for a year. From 2024.10, I started to work as long-term intern at 株式会社ケミカン and 株式会社IGSA simultaneously.",
     icon: React.createElement(FaLaptopCode),
     date: "2022.10 - present",
   },
