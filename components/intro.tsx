@@ -7,6 +7,7 @@ import Link from 'next/link'
 import { BsArrowRight, BsGithub, BsLinkedin } from 'react-icons/bs'
 import { HiDownload } from 'react-icons/hi'
 import { useSectionInView } from '@/lib/hooks';
+import AtCoder from '@/public/AtCoder.svg'
 
 export default function Intro() {
     const { ref, inView } = useSectionInView("Home");
@@ -93,6 +94,10 @@ export default function Intro() {
 
                 <a href="https://github.com/944750720" target='_blank' className='group bg-white text-gray-700 px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10'>
                     <BsGithub />
+                </a>
+
+                <a href="https://atcoder.jp/users/hoshizora39" target='_blank' className='group bg-white text-gray-700 px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10'>
+                    <Image src={AtCoder} alt='AtCoder' width={22.5} height={22.5} className="min-w-[22.5px] min-h-[22.5px]"/>
                 </a>
             </motion.div>
         </section>
