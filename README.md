@@ -1,4 +1,7 @@
+## About
 **My portfolio website is: [hongji.xyz](https://hongji.xyz/)**
+
+**I followed this tutorial: https://www.youtube.com/watch?v=pQoHvx0SoiA&list=WL**
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
