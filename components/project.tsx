@@ -36,7 +36,7 @@ export default function Project({ title, description, tags, imageUrl, href }: Pr
                     </ul>
                 </div>
 
-                <a href={href} target="_blank" className="block">
+                <a href={href} target="_blank" className="block !cursor-pointer">
                     <Image src={imageUrl} alt="Project I worked on" quality={95} className='absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
         group-hover:scale-[1.04]
         group-hover:-translate-x-3
