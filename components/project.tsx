@@ -7,7 +7,7 @@ import { projectsData } from '@/lib/data';
 
 type ProjectProps = typeof projectsData[number];
 
-export default function Project({ title, description, tags, imageUrl }: ProjectProps) {
+export default function Project({ title, description, tags, imageUrl, href }: ProjectProps) {
     const ref = useRef<HTMLDivElement>(null);
     const { scrollYProgress } = useScroll({
         target: ref,
@@ -36,7 +36,8 @@ export default function Project({ title, description, tags, imageUrl }: ProjectP
                     </ul>
                 </div>
 
-                <Image src={imageUrl} alt="Project I worked on" quality={95} className='absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
+                <a href={href} target="_blank" className="block">
+                    <Image src={imageUrl} alt="Project I worked on" quality={95} className='absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
         group-hover:scale-[1.04]
         group-hover:-translate-x-3
         group-hover:translate-y-3
@@ -48,7 +49,8 @@ export default function Project({ title, description, tags, imageUrl }: ProjectP
         group-even: bg-white/25
         group-even:right-[initial] transition
         group-even:-left-32'
-                />
+                    />
+                </a>
             </section>
         </motion.div>
     )

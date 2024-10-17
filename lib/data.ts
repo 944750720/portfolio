@@ -66,6 +66,7 @@ export const projectsData = [
       "I participated in a machine learning event organized by Tech-Base. I made a CNN model to classify images of different types of pens and pencils to hopefully help stuffs in Itoya-Ginza to classify them.",
     tags: ["Python", "CNN", "Tensorflow"],
     imageUrl: techbase,
+    href: "https://drive.google.com/drive/folders/1V0A1wjqekTevNae-kVwVn1kpBMmTPlbv?app_name=iphone_app",
   },
   {
     title: "Search similar context by OpenSearch and LangChain",
@@ -73,6 +74,7 @@ export const projectsData = [
       "I made a search program using OpenSearch and LangChain to search similar context from a large document, with the help of LLM.",
     tags: ["Python", "OpenSearch", "LangChain", "OpenAI"],
     imageUrl: opensearch,
+    href: "https://github.com/944750720/Search_similar_context_by_Opensearch_and_Langchian",
   },
   {
     title: "Rakuten internship",
@@ -80,6 +82,7 @@ export const projectsData = [
       "I participated in an internship at Rakuten. I implemented the API of adding coupon information for businesses and searching for stores that are offering discounts on food items and the details of discounted food items by food type and store name using SQLite and Django Rest Framework.",
     tags: ["Python", "Django", "React.js", "SQLite"],
     imageUrl: rakuten,
+    href: "https://github.com/944750720/intern",
   },
 ] as const;
 
