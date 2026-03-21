@@ -19,26 +19,25 @@ export default function About() {
         >
             <SectionHeading>About me</SectionHeading>
             <p className='mb-3'>
-                After graduating with an Electrical Engineering bachelor&apos;s degree in{" "}
+                After graduating with a Bachelor's degree in Electrical Engineering from{" "}
                 <span className="font-bold">South China University of Technology</span>, I decided to pursue my
-
-                passion for {" "}
-                <span className="font-bold">programming and dream of studying abroad in Japan</span>.
-                Even thought the coronavirus pandemic was raging, I still quitted my job in order to prepare for the test of Japanese University Master Entrance Examination.{" "}
-                And I got admitted to Department of EEIS, <span className="font-bold">The University of Tokyo</span>.{" "}
-                <span className="italic">My research is about radar and unsupervised machine learning</span>.
-                This experience has deepened my understanding of Japanese culture and broadened my international perspective. {" "}
-                My core stack is{" "}
+                passion for{" "}
+                <span className="font-bold">programming and my dream of studying in Japan</span>.
+                I left my job to prepare for the Japanese University Master's Entrance Examination
+                and was admitted to the Department of EEIS at{" "}
+                <span className="font-bold">The University of Tokyo</span>.{" "}
+                <span className="italic">My research focuses on radar signal processing and unsupervised machine learning</span>.
+                This journey has deepened my appreciation of Japanese culture and broadened my international perspective.{" "}
+                My core tech stack includes{" "}
                 <span className="font-bold">
-                    Python and TypeScript.
+                    Python (RAG, FastAPI) and TypeScript (React.js).
                 </span>{" "}
-                I am always looking to
-                learn new technologies, e.g.,
+                I am always eager to learn new technologies, such as{" "}
                 <span className="font-bold">
-                    LLM and RAG.
+                    Node.js, Nest.js, Next.js, and Golang.
                 </span>{" "}
-                I am currently aiming to become a{" "}
-                <span className="font-bold">full-stack engineer</span>.
+                My goal is to become an excellent{" "}
+                <span className="font-bold">Full-Stack Engineer</span>.
             </p>
         </motion.section>
     )

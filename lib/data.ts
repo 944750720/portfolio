@@ -55,7 +55,15 @@ export const experiencesData = [
     description:
       "I had participated in short-term internships at 楽天グループ and 日本コントロールシステム株式会社, among others. I had also worked as a long-term AI(LLM) Engineer intern at 株式会社クウゼン for a year. From 2024.10, I started to work as long-term intern at 株式会社ケミカン and 株式会社IGSA simultaneously.",
     icon: React.createElement(FaLaptopCode),
-    date: "2022.10 - present",
+    date: "2022.10 - 2025.03",
+  },
+  {
+    title: "Software Engineer",
+    location: "Tokyo, Japan",
+    description:
+      "I joined 株式会社pluszero as a Software Engineer, responsible for full-stack development with React.js and FastAPI. Concurrently, I continue working part-time at 株式会社ケミカン on AI backend development, including FastAPI services and LLM-based OCR pipelines.",
+    icon: React.createElement(FaLaptopCode),
+    date: "2025.04 - present",
   },
 ] as const;
 
@@ -87,22 +95,31 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  // Frontend
   "HTML",
   "CSS",
   "TypeScript",
   "React.js",
   "Next.js",
   "Tailwind",
-  "Git",
-  "PostgreSQL",
-  "SQLAlchemy",
+  "Styled Components",
+  "Jotai",
+  // Backend
   "Python",
-  "unittest",
-  "Docker",
+  "FastAPI",
+  "SQLAlchemy",
   "Crawler",
-  "OpenSearch",
-  "LangChain",
-  "AWS S3",
-  "AWS EventBridge",
   "Numpy",
+  "unittest",
+  // Database & Search
+  "PostgreSQL",
+  "OpenSearch",
+  // DevOps & Cloud
+  "Git Actions",
+  "Docker",
+  "AWS",
+  "GCP",
+  "Azure",
+  // AI
+  "LangChain",
 ] as const;

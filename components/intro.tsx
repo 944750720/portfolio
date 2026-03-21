@@ -56,20 +56,15 @@ export default function Intro() {
                 initial={{ opacity: 0, scale: 0.6 }}
                 animate={{ opacity: 1, scale: 1 }}
             >
-                <span className="font-bold">Hello, I&apos;m Chen Hongji👋, </span> {" "}
+                <span className="font-bold">Hello, I'm Chen Hongji👋, </span>
                 graduating from {" "}
-                <span className="font-bold">The University of Tokyo.</span> {" "}
+                <span className="font-bold">The University of Tokyo. </span>
                 I&apos;m a {" "}
-                <span className="font-bold">Software Engineer</span> {" "}
+                <span className="font-bold">Software Engineer </span>
                 with{" "}
-                <span className="font-bold">1 year of internship experience in Tokyo</span>
-                , mainly working remotely.
-                I enjoy {" "}<span className="font-bold">programming</span>
-                , gaming, traveling, cooking, and watching soccer.
-                My focus is on {" "}
-                <span className="underline">Python, TypeScript.</span>
-                , and I have experience with {" "}
-                <span className="font-bold">LLM and RAG development.</span>
+                <span className="font-bold">17 months of internship experience in Python RAG backend, 1 yoe in React.js frontend, and some experience in FastAPI. </span>
+                I enjoy <span className="font-bold">programming</span>
+                , gaming, and traveling by car.
             </motion.p>
 
             <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
