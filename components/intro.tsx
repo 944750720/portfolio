@@ -56,7 +56,7 @@ export default function Intro() {
                 initial={{ opacity: 0, scale: 0.6 }}
                 animate={{ opacity: 1, scale: 1 }}
             >
-                <span className="font-bold">Hello, I'm Chen Hongji👋, </span>
+                <span className="font-bold">Hello, I&apos;m Chen Hongji👋, </span>
                 graduating from {" "}
                 <span className="font-bold">The University of Tokyo. </span>
                 I&apos;m a {" "}

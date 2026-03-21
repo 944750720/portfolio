@@ -19,11 +19,11 @@ export default function About() {
         >
             <SectionHeading>About me</SectionHeading>
             <p className='mb-3'>
-                After graduating with a Bachelor's degree in Electrical Engineering from{" "}
+                After graduating with a Bachelor&apos;s degree in Electrical Engineering from{" "}
                 <span className="font-bold">South China University of Technology</span>, I decided to pursue my
                 passion for{" "}
                 <span className="font-bold">programming and my dream of studying in Japan</span>.
-                I left my job to prepare for the Japanese University Master's Entrance Examination
+                I left my job to prepare for the Japanese University Master&apos;s Entrance Examination
                 and was admitted to the Department of EEIS at{" "}
                 <span className="font-bold">The University of Tokyo</span>.{" "}
                 <span className="italic">My research focuses on radar signal processing and unsupervised machine learning</span>.
