@@ -63,7 +63,15 @@ export const experiencesData = [
     description:
       "I joined 株式会社pluszero as a Software Engineer, responsible for full-stack development with React.js and FastAPI. Concurrently, I continue working part-time at 株式会社ケミカン on AI backend development, including FastAPI services and LLM-based OCR pipelines.",
     icon: React.createElement(FaLaptopCode),
-    date: "2025.04 - present",
+    date: "2025.04 - 2026.04",
+  },
+  {
+    title: "AI Software Engineer",
+    location: "Tokyo, Japan",
+    description:
+      "I joined 株式会社ケミカン as an AI Software Engineer, focusing on AI agent backend development and improving LLM-based OCR structured extraction performance.",
+    icon: React.createElement(FaLaptopCode),
+    date: "2026.04 - present",
   },
 ] as const;
 
