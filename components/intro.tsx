@@ -83,7 +83,7 @@ export default function Intro() {
                     <HiDownload className='opacity-60 group-hover:translate-y-1 transition' />
                 </a>
 
-                <a href="https://www.linkedin.com/in/hongji-chen-4b58a2209/" target='_blank' className='group bg-white text-gray-700 px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10'>
+                <a href="https://www.linkedin.com/in/hongji-chen" target='_blank' className='group bg-white text-gray-700 px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10'>
                     <BsLinkedin />
                 </a>
 

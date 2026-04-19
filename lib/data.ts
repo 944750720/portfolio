@@ -112,6 +112,7 @@ export const skillsData = [
   "Tailwind",
   "Linaria",
   "Jotai",
+  "Antd",
   // Backend
   "Python",
   "FastAPI",
