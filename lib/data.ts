@@ -110,7 +110,7 @@ export const skillsData = [
   "React.js",
   "Next.js",
   "Tailwind",
-  "Styled Components",
+  "Linaria",
   "Jotai",
   // Backend
   "Python",
