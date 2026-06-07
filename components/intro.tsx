@@ -3,11 +3,11 @@
 import Image from 'next/image'
 import React from 'react'
 import * as motion from 'framer-motion/client'
-import Link from 'next/link'
 import { BsArrowRight, BsGithub, BsLinkedin } from 'react-icons/bs'
 import { HiDownload } from 'react-icons/hi'
 import { useSectionInView } from '@/lib/hooks';
 import AtCoder from '@/public/AtCoder.svg'
+import { toast } from "sonner"
 
 export default function Intro() {
     const { ref, inView } = useSectionInView("Home");
@@ -62,7 +62,13 @@ export default function Intro() {
                 I&apos;m a {" "}
                 <span className="font-bold">Software Engineer </span>
                 with{" "}
-                <span className="font-bold">17 months of internship experience in Python RAG backend, 1 yoe in React.js frontend, and some experience in FastAPI. </span>
+                <span className="font-bold">2.5 years of Python backend experience in AI Agent development (RAG, LLM OCR, LLM Pipeline, FastAPI), </span>
+                1 year in{" "}
+                <span className="font-bold">React.js</span>
+                {" "}frontend, and{" "}
+                <span className="font-bold">personal projects built with Next.js. </span>
+                Fluent in{" "}
+                <span className="font-bold">Chinese, Japanese, and English. </span>
                 I enjoy <span className="font-bold">programming</span>
                 , gaming, and traveling by car.
             </motion.p>
@@ -74,11 +80,20 @@ export default function Intro() {
                     delay: 0.4,
                 }}
             >
-                <Link href="#contact" className='group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:bg-gray-950 hover:scale-110 active:scale-105 transition border border-black/10'>Contact me here <BsArrowRight
-                    className='opacity-70 group-hover:translate-x-2 transition' />
-                </Link>
+                <button
+                    onClick={() => {
+                        navigator.clipboard.writeText("lupangdewuyu@gmail.com");
+                        toast.success("Email copied to clipboard!", {
+                            id: "email-copy",
+                            description: "lupangdewuyu@gmail.com",
+                        });
+                    }}
+                    className='group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:bg-gray-950 hover:scale-105 active:scale-100 transition border border-black/10 cursor-pointer'
+                >
+                    Contact me here <BsArrowRight className='opacity-70 group-hover:translate-x-2 transition' />
+                </button>
 
-                <a href='/CV.pdf' download className='group bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full outline-none hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10'>
+                <a href='/CV.pdf' download className='group bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full outline-none hover:scale-105 active:scale-105 transition cursor-pointer border border-black/10'>
                     Download CV
                     <HiDownload className='opacity-60 group-hover:translate-y-1 transition' />
                 </a>

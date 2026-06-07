@@ -30,11 +30,11 @@ export default function About() {
                 This journey has deepened my appreciation of Japanese culture and broadened my international perspective.{" "}
                 My core tech stack includes{" "}
                 <span className="font-bold">
-                    Python (RAG, FastAPI) and TypeScript (React.js).
+                    Python (RAG, LLM pipeline, FastAPI) and TypeScript (React.js, Next.js).
                 </span>{" "}
                 I am always eager to learn new technologies, such as{" "}
                 <span className="font-bold">
-                    Node.js, Nest.js, Next.js, and Golang.
+                    Node.js, and Golang.
                 </span>{" "}
                 My goal is to become an excellent{" "}
                 <span className="font-bold">Full-Stack Engineer</span>.
