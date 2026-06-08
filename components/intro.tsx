@@ -26,7 +26,7 @@ export default function Intro() {
                             mass: 0.5,
                         }}
                     >
-                        <Image src="https://files.catbox.moe/sis1yu.jpeg"
+                        <Image src="/avatar.jpg"
                             alt="Chen Hongji\'s portrait"
                             width={192}
                             height={192}
